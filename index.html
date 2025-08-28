@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>জরুরি সেবা ডিরেক্টরি</title>
+  <!-- FontAwesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+     <header class="flex flex-col lg:flex-row gap-4  items-center justify-between w-11/12 my-3 mx-auto">
+    <div class="flex gap-2 items-center">
+      <h1 class="text-2xl text-green-800 font-extrabold leading-6">
+        Emergency<br />Service
+      </h1>
+      <img class="w-14" src="./assets/logo.png" alt="" />
+    </div>
+
+    <div class="flex gap-5">
+      <div class="flex items-center rounded-full bg-green-100  px-5 gap-2">
+           <img class="w-8" src="./assets/heart.png" alt="" />
+        <span id="heart-count" class="text-xl font-semibold">0</span>
+      </div>
+
+      <div class="flex items-center rounded-full bg-green-100 px-5 gap-2">
+          <img class="w-8" src="./assets/coin.png" alt="" />
+        <span id="coin-count" class="text-xl font-semibold">100</span>
+      </div>
+
+      <div class="bg-green-600  px-5 py-3 rounded-full">
+        <p class="text-white  font-semibold text-xl">
+          <span id="copy-count">0</span> Copy
+        </p>
+      </div>
+    </div>
+  </header>
+  <main class="bg-green-100">
+    <!-- Banner Part -->
+    <section
+      class="banner bg bg-gradient-to-r from-emerald-950 via-emerald-800 to-emerald-950 flex flex-col justify-center text-center items-center p-5 gap-2 ">
+      <img class="w-20" src="./assets/logo-dark.png" alt="" />
+      
+      <h1 class="text-white text-3xl font-semibold">জরুরি সেবা ডিরেক্টরি</h1>
+      <p class="text-white text-lg font-semibold">
+        Government Emergency Services at Your Fingertip - A Project by
+        Government of the People's Republic of Bangladesh
+      </p>
+    </section>
+</body>
+</html>
