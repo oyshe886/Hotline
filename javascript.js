@@ -65,3 +65,9 @@ for (const btn of callBtns) {
     }
   });
 }
+
+// clear button 
+getElement("btn-clear").addEventListener("click", function ()
+ {
+  getElement("history-id").innerHTML = "";
+});
